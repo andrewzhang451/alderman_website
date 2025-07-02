@@ -9,6 +9,7 @@ const LandingPage: React.FC = () => {
       <Header />
       <CommunityHighlights />
       <QuickActions />
+      
     </main>
   );
 };
