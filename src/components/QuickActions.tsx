@@ -1,6 +1,5 @@
-import React from "react";
 
-const QuickActions: React.FC = () => {
+function QuickActions() {
   return (
     <section className="p-6 bg-blue-50">
       <h2 className="text-2xl font-semibold mb-4 text-center">Quick Actions</h2>

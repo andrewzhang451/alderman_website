@@ -1,6 +1,4 @@
-import React from "react";
-
-const CommunityHighlights: React.FC = () => {
+function CommunityHighlights() {
   return (
     <section className="p-6">
       <h2 className="text-2xl font-semibold mb-4 text-center">Community Highlights</h2>

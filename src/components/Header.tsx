@@ -1,6 +1,4 @@
-import React from "react";
-
-const Header: React.FC = () => {
+function Header() {
   return (
     <header className="p-6 text-center bg-blue-100">
       <h1 className="text-4xl font-bold text-gray-800">Welcome to the 11th Ward</h1>
@@ -9,6 +7,6 @@ const Header: React.FC = () => {
       </p>
     </header>
   );
-};
+}
 
 export default Header;

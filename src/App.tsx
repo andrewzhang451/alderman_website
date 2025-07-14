@@ -1,8 +1,7 @@
 // src/App.tsx
-import React from 'react'
 import LandingPage from './pages/LandingPage'
 
-const App: React.FC = () => {
+function App() {
   return <LandingPage />
 }
 
