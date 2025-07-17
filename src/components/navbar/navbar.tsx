@@ -1,6 +1,6 @@
 function Navbar() {
     return (
-        <nav className="relative bg-[url('/Nicole_Lee_Ping_Tom.png')] bg-cover bg-center h-64 text-white before:absolute before:inset-0 before:bg-black/40 before:z-0">
+        <nav className="relative bg-[url('/Nicole_Lee_Ping_Tom.png')] bg-cover bg-center h-80 text-white before:absolute before:inset-0 before:bg-black/40 before:z-0">
             <div className="relative z-10 flex justify-end items-start px-8 pt-4">
                 <div className="flex gap-4">
                     <div>
