@@ -1,8 +1,8 @@
 // src/App.tsx
-import LandingPage from './pages/LandingPage'
+import Home_Page from './pages/Home'
 
 function App() {
-  return <LandingPage />
+  return <Home_Page />
 }
 
 export default App

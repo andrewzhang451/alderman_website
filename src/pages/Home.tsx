@@ -4,7 +4,7 @@ import QuickActions from "../components/QuickActions";
 import Navbar from "../components/navbar/navbar";
 import Header_image from "../components/header_pic";
 
-function LandingPage() {
+function Home_Page() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
       <Navbar />
@@ -17,4 +17,4 @@ function LandingPage() {
   );
 };
 
-export default LandingPage;
+export default Home_Page;
