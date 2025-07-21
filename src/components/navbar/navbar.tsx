@@ -15,7 +15,7 @@ function Navbar() {
                                 <a href="#" className="block px-4 py-2 hover:bg-white group-hover:bg-white">Our Mission</a>
                                     <ul className="absolute hidden group-hover:block bg-white shadow-md p-2 top-full">
                                         <li className="relative group group-hover:bg-white rounded">
-                                            <a href="#" className="block px-4 py-2 bg-white">endorsement</a>
+                                            <a href="#" className="block px-4 py-2 hover:bg-slate-700 hover:text-white">Endorsement</a>
                                         </li>
                                 </ul>
                             </li>
@@ -24,16 +24,16 @@ function Navbar() {
                     <div>
                         <ul className="flex gap-4">
                             <li className="relative group group-hover:bg-white rounded">
-                                <a href="#" className="block px-4 py-2 hover:bg-white group-hover:bg-white rounded">About</a>
+                                <a href="#" className="block px-4 py-2 hover:bg-white group-hover:bg-white">About</a>
                                 <ul className="absolute hidden group-hover:block bg-white shadow-md p-2 top-full">
                                     <li>
-                                        <a href="#" className="block px-4 py-2 hover:bg-white">Nicole Lee</a>
+                                        <a href="#" className="block px-4 py-2 hover:bg-slate-700 hover:text-white">Nicole Lee</a>
                                     </li>
                                     <li>
-                                        <a href="#" className="block px-4 py-2 hover:bg-white">staff</a>
+                                        <a href="#" className="block px-4 py-2 hover:bg-slate-700 hover:text-white">Staff</a>
                                     </li>
                                     <li>
-                                        <a href="#" className="block px-4 py-2 hover:bg-white">Our Accomplishment</a>
+                                        <a href="#" className="block px-4 py-2 hover:bg-slate-700 hover:text-white">Our Accomplishments</a>
                                     </li>
                                 </ul>
                             </li>
@@ -45,10 +45,10 @@ function Navbar() {
                                 <a href="#" className="block px-4 py-2 hover:bg-white group-hover:bg-white">Connect</a>
                                 <ul className="absolute hidden group-hover:block bg-white shadow-md p-2 top-full">
                                     <li>
-                                        <a href="#" className="block px-4 py-2 hover:bg-white">Email Nicole</a>
+                                        <a href="#" className="block px-4 py-2 hover:bg-slate-700 hover:text-white">Email Nicole</a>
                                     </li>
                                     <li>
-                                        <a href="#" className="block px-4 py-2 hover:bg-white">Resources</a>
+                                        <a href="#" className="block px-4 py-2 hover:bg-slate-700 hover:text-white">Resources</a>
                                     </li>
                                 </ul>
                             </li>
