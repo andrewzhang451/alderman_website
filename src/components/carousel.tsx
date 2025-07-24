@@ -29,9 +29,7 @@ function Carousel() {
     <div className="carousel-outer overflow-hidden w-full">
       <div className="carousel-inner flex transition-all duration-1000 ease-[cubic-bezier(0.31,0.575,0.565,1)]" style={{ transform: `translateX(-${currentIndex * 100}%)` }} >
         {data.map((item, index) => (
-            <h1 className="carousel-item h-[20rem] min-w-full w-full flex items-center justify-center"
-                key={index}>Newsletter {item}
-            </h1>
+            <h1 className="carousel-item h-[20rem] min-w-full w-full flex items-center justify-center" key={index}> Newsletter{item} </h1>
         ))}
       </div>
     </div>
