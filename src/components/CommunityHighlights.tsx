@@ -1,6 +1,6 @@
 function CommunityHighlights() {
   return (
-    <section className="p-6">
+    <section className="p-6 bg-blue-100">
       <h2 className="text-2xl font-semibold mb-4 text-center">Community Highlights</h2>
       <div className="grid md:grid-cols-3 gap-4">
         <div className="bg-white p-4 rounded shadow">
