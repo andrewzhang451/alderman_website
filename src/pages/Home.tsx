@@ -11,9 +11,10 @@ function Home_Page() {
       <Navbar />
       <Header_image />
       <Header />
+      <QuickActions />
       <Carousel />
       <CommunityHighlights />
-      <QuickActions />
+      
       
     </main>
   );
