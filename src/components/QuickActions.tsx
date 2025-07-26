@@ -6,7 +6,7 @@ function QuickActions() {
       <div className="grid md:grid-cols-3 gap-4">
         {/* container */}
         <div className="bg-rose-600 p-4 rounded shadow text-center">
-          <h3 className="text-xl font-bold">Report an Issue (311)</h3>
+          <h3 className="text-xl font-bold text-white" style={{textShadow: '2px 2px 6px rgba(0,0,0,1)'}}>Report an Issue (311)</h3>
           <button className="mt-2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
             Submit
           </button>
@@ -20,7 +20,7 @@ function QuickActions() {
           {/* container */}
         </div>
         <div className="bg-sky-400 p-4 rounded shadow text-center">
-          <h3 className="text-xl font-bold">City Services</h3>
+          <h3 className="text-xl font-bold text-white" style={{textShadow: '2px 2px 6px rgba(0,0,0,1)'}}>City Services</h3>
           <button className="mt-2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
             Learn More
           </button>
