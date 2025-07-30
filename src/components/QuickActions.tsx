@@ -1,27 +1,25 @@
-
 function QuickActions() {
   return (
     <section className="p-6 bg-blue-100">
       <h2 className="text-2xl font-semibold mb-4 text-center">Quick Actions</h2>
-      <div className="grid md:grid-cols-3 gap-4">
+      <div className="flex flex-col gap-4">
         {/* container */}
-        <div className="bg-rose-600 p-4 rounded shadow text-center">
-          <h3 className="text-xl font-bold text-white" style={{textShadow: '2px 2px 6px rgba(0,0,0,1)'}}>Report an Issue (311)</h3>
-          <button className="mt-2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+        <div className="bg-red-100 p-4 rounded-xl shadow text-center hover:scale-105 transition-transform duration-300 space-y-2">
+          <h3 className="text-xl font-bold text-red-800">Report an Issue (311)</h3>
+          <button className="mt-2 bg-blue-600 font-bold text-white px-4 py-2 rounded hover:bg-blue-700">
             Submit
           </button>
         </div>
         {/* container */}
-        <div className="bg-white p-4 rounded shadow text-center">
-          <h3 className="text-xl font-bold">Schedule a Meeting</h3>
-          <button className="mt-2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+        <div className="bg-white p-4 rounded-xl shadow text-center hover:scale-105 transition-transform duration-300 space-y-2">
+          <h3 className="text-xl font-bold text-blue-800">Schedule a Meeting</h3>
+          <button className="mt-2 bg-blue-600 font-bold text-white px-4 py-2 rounded hover:bg-blue-700">
             Book Time
           </button>
-          {/* container */}
         </div>
-        <div className="bg-sky-400 p-4 rounded shadow text-center">
-          <h3 className="text-xl font-bold text-white" style={{textShadow: '2px 2px 6px rgba(0,0,0,1)'}}>City Services</h3>
-          <button className="mt-2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+        <div className="bg-blue-100 p-4 rounded-xl shadow text-center hover:scale-105 transition-transform duration-300 space-y-2">
+          <h3 className="text-xl font-bold text-blue-800">City Services</h3>
+          <button className="mt-2 bg-blue-600 font-bold text-white px-4 py-2 rounded hover:bg-blue-700">
             Learn More
           </button>
         </div>

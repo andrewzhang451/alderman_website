@@ -26,24 +26,25 @@ function Carousel() {
   })
 
   return (
-    <div className="flex flex-col md:flex-row justify-center item-center md:space-x-8 md:space-y-0 space-y-6 px-4 py-10">
+    <div className="flex flex-col md:flex-row justify-center items-start md:space-x-8 md:space-y-0 space-y-6 px-4 py-10">
     {/* the carousel box itself */}
-        <div className="carousel-outer w-[250px] h-[250px] md:h-[300px] md:w-[300] overflow-hidden bg-gray-100">
+        <div className="carousel-outer w-full md:w-1/2 h-[250px] md:h-[300px] overflow-hidden bg-white rounded-xl shadow">
             {/* ease-cubic-bezier controls how fast the item transitions from the prev to curr and to next */}
             <div className="carousel-inner flex transition-all duration-3000 ease-[cubic-bezier(0.31,0.575,0.565,1)]" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                 {data.map((item, index) => (
-                    <div key={index} className="carousel-item flex min-w-full h-full justify-center items-center">
-                        <h1 className="text-lg font-semibold">
+                    <div key={index} className="carousel-item min-w-full h-full text-center">
+                        <h1 className="text-lg font-semibold text-blue-800">
                             Newsletter {item}
                         </h1>
-                    </div>))}
+                    </div>
+                ))}
             </div>
         </div>
 
         {/* Text content on the right (or below on mobile) */}
         <div className="text-center md:text-left max-w-sm">
-            <h2 className="text-2xl md:text-3xl font-semibold text-blue-600 mb-2">Recent Newsletter Carousel</h2>
-            <p className="text-black text-sm">dynamically changes every 3 seconds</p>
+            <h2 className="text-2xl md:text-3xl font-semibold text-blue-900 mb-2">Recent Newsletter Carousel</h2>
+            <p className="text-blue-700 text-sm">dynamically changes every 3 seconds</p>
         </div>
     </div>
 
