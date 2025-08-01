@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import CommunityHighlights from "../components/CommunityHighlights";
+// import CommunityHighlights from "../components/CommunityHighlights";
 import QuickActions from "../components/QuickActions";
 import Navbar from "../components/navbar/navbar";
 import Header_image from "../components/header_pic";
