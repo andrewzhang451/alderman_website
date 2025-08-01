@@ -1,16 +1,16 @@
 function Navbar() {
     return (
         <nav className="bg-[#003366] border-b border-blue-800 text-white">
-            <div className="relative z-10 flex justify-end items-start px-8 pt-4">
-                <div className="flex gap-1">
+            <div className="relative z-10 px-4 pt-4">
+                <div className="flex flex-wrap justify-end items-start gap-x-2 gap-y-2">
                     <div>
                         <a href="#" className="block px-4 py-2 rounded hover:bg-white hover:text-blue-700 font-semibold transition-colors duration-200">Home</a>
                     </div>
-                    <div className="pl-1 ml-1 border-l border-blue-300">
+                    <div className="border-l border-blue-300 pl-2">
                         <a href="#" className="block px-4 py-2 rounded hover:bg-white hover:text-blue-700 font-semibold transition-colors duration-200">Service</a>
                     </div>
-                    <div className="pl-1 ml-1 border-l border-blue-300">
-                        <ul className="flex gap-4">
+                    <div className="border-l border-blue-300 pl-2">
+                        <ul className="flex flex-col sm:flex-row gap-2 sm:gap-4">
                             <li className="relative group">
                                 <a href="#" className="block px-4 py-2 rounded hover:bg-white hover:text-blue-700 font-semibold transition-colors duration-200">
                                   Our Mission <span className="ml-1">▼</span>

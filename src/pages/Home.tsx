@@ -22,7 +22,7 @@ function Home_Page() {
         </section>
       </div>
       <Carousel />
-      <CommunityHighlights />  
+      {/* <CommunityHighlights />   */}
       <ContactInfo />
     </main>
   );
