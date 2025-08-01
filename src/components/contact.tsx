@@ -11,7 +11,7 @@ export default function ContactInfo() {
           </div>
           <div className="space-y-2">
             <p><strong>Office Hours:</strong><br />Monday – Friday: 9:00 AM – 5:00 PM</p>
-            <p><strong>Follow Us:</strong><br />Facebook | Twitter | Instagram</p>
+            {/* <p><strong>Follow Us:</strong><br />Facebook | Twitter | Instagram</p> */}
           </div>
         </div>
         <p className="text-xs text-blue-800">© 2025 Alderman Nicole Lee - 11th Ward of Chicago. All rights reserved.</p>
